@@ -1,0 +1,75 @@
+description,short_description,facility_rate,code,kind
+"Psychotherapy, 30 min",Psytx w pt 30 minutes,68.87,90832,Evaluation and management services
+"Psychotherapy, 45 min",Psytx w pt 45 minutes,90.67,90834,Evaluation and management services
+"Psychotherapy, 60 min",Psytx w pt 60 minutes,132.89,90837,Evaluation and management services
+"Family psychotherapy, not including patient, 50 min",Family psytx w/o pt 50 min,97.59,90846,Evaluation and management services
+"Family psychotherapy, including patient, 50 min",Family psytx w/pt 50 min,101.40,90847,Evaluation and management services
+Group psychotherapy,Group psychotherapy,27.34,90853,Evaluation and management services
+"New patient office or other outpatient visit, typically 30 min",Office o/p new low 30-44 min,113.85,99203,Evaluation and management services
+"New patient office of other outpatient visit, typically 45 min",Office o/p new mod 45-59 min,169.57,99204,Evaluation and management services
+"New patient office of other outpatient visit, typically 60 min",Office o/p new hi 60-74 min,224.25,99205,Evaluation and management services
+"Patient office consultation, typically 40 min",,,99243,Evaluation and management services
+"Patient office consultation, typically 60 min",,,99244,Evaluation and management services
+Initial new patient preventive medicine evaluation (18-39 years),,,99385,Evaluation and management services
+Initial new patient preventive medicine evaluation (40-64 years),,,99386,Evaluation and management services
+Basic metabolic panel,,,80048,Laboratory and pathology services
+"Blood test, comprehensive group of blood chemicals",,,80053,Laboratory and pathology services
+Obstetric blood test panel,,,80055,Laboratory and pathology services
+"Blood test, lipids (cholesterol and triglycerides)",,,80061,Laboratory and pathology services
+Kidney function panel test,,,80069,Laboratory and pathology services
+Liver function blood test panel,,,80076,Laboratory and pathology services
+Manual urinalysis test with examination using microscope,,,81001,Laboratory and pathology services
+Manual urinalysis test with examination using microscope,,,81000,Laboratory and pathology services
+Automated urinalysis test,,,81002,Laboratory and pathology services
+Automated urinalysis test,,,81003,Laboratory and pathology services
+PSA (prostate specific antigen),,,84153,Laboratory and pathology services
+PSA (prostate specific antigen),,,84154,Laboratory and pathology services
+"Blood test, thyroid stimulating hormone (TSH)",,,84443,Laboratory and pathology services
+"Complete blood cell count, with differential white blood cells, automated",,,85025,Laboratory and pathology services
+"Complete blood count, automated",,,85027,Laboratory and pathology services
+"Blood test, clotting time",,,85610,Laboratory and pathology services
+Coagulation assessment blood test,,,85730,Laboratory and pathology services
+"CT scan, head or brain, without contrast",Ct head/brain w/o dye,113.16,70450,Radiology services
+MRI scan of brain before and after contrast,Mri brain stem w/o & w/dye,346.41,70553,Radiology services
+"X-Ray, lower back, minimum four views",X-ray exam l-2 spine 4/>vws,52.95,72110,Radiology services
+MRI scan of lower spinal canal,Mri lumbar spine w/o dye,207.64,72148,Radiology services
+"CT scan, pelvis, with contrast",Ct pelvis w/dye,251.59,72193,Radiology services
+MRI scan of leg joint,Mri jnt of lwr extre w/o dye,219.06,73721,Radiology services
+CT scan of abdomen and pelvis with contrast,Ct abd & pelv w/contrast,333.26,74177,Radiology services
+Ultrasound of abdomen,Us exam abdom complete,122.16,76700,Radiology services
+Abdominal ultrasound of pregnant uterus (greater or equal to 14 weeks 0 days) single or first fetus,Ob us >= 14 wks sngl fetus,140.16,76805,Radiology services
+Ultrasound pelvis through vagina,Transvaginal us non-ob,124.93,76830,Radiology services
+Mammography of one breast,Dx mammo incl cad uni,130.12,77065,Radiology services
+Mammography of both breasts,Dx mammo incl cad bi,164.38,77066,Radiology services
+"Mammography, screening, bilateral",Scr mammo bi incl cad,132.54,77067,Radiology services
+Cardiac valve and other major cardiothoracic procedures with cardiac catheterization with MCC,,61448.41,216,Medicine and surgery services
+Spinal fusion except cervical without MCC,,23169.31,460,Medicine and surgery services
+Major joint replacement or reattachment of lower extremity without MCC,,11193.17,470,Medicine and surgery services
+Cervical spinal fusion without CC or MCC,,14965.46,473,Medicine and surgery services
+Uterine and adnexa procedures for non-malignancy without CC or MCC,,6670.89,743,Medicine and surgery services
+"Removal of 1 or more breast growth, open procedure",Removal of breast lesion,430.16,19120,Medicine and surgery services
+Shaving of shoulder bone using an endoscope,Sho arthrs srg decompression,176.49,29826,Medicine and surgery services
+Removal of one knee cartilage using an endoscope,Knee arthroscopy/surgery,557.85,29881,Medicine and surgery services
+Removal of tonsils and adenoid glands patient younger than age 12,Remove tonsils and adenoids,297.96,42820,Medicine and surgery services
+"Diagnostic examination of esophagus, stomach, and/or upper small bowel using an endoscope",Egd diagnostic brush wash,124.24,43235,Medicine and surgery services
+"Biopsy of the esophagus, stomach, and/or upper small bowel using an endoscope",Egd biopsy single/multiple,139.81,43239,Medicine and surgery services
+Diagnostic examination of large bowel using an endoscope,Diagnostic colonoscopy,186.87,45378,Medicine and surgery services
+Biopsy of large bowel using an endoscope,Colonoscopy and biopsy,202.79,45380,Medicine and surgery services
+Removal of polyps or growths of large bowel using an endoscope,Colonoscopy w/lesion removal,257.82,45385,Medicine and surgery services
+Ultrasound examination of lower large bowel using an endoscope,Colonoscopy w/endoscope us,260.93,45391,Medicine and surgery services
+Removal of gallbladder using an endoscope,Laparoscopic cholecystectomy,683.82,47562,Medicine and surgery services
+Repair of groin hernia patient age 5 years or older,Prp i/hern init reduc >5 yr,541.93,49505,Medicine and surgery services
+Biopsy of prostate gland,Biopsy of prostate,130.81,55700,Medicine and surgery services
+Surgical removal of prostate and surrounding lymph nodes using an endoscope,Laparo radical prostatectomy,1454.85,55866,Medicine and surgery services
+"Routine obstetric care for vaginal delivery, including pre-and post-delivery care",Obstetrical care,2460.16,59400,Medicine and surgery services
+"Routine obstetric care for cesarean delivery, including pre-and post-delivery care",Cesarean delivery,2716.59,59510,Medicine and surgery services
+Routine obstetric care for vaginal delivery after prior cesarean delivery including pre-and post-delivery care,Vbac delivery,2572.63,59610,Medicine and surgery services
+Injection of substance into spinal canal of lower back or sacrum using imaging guidance,Njx interlaminar lmbr/sac,82.36,62322,Medicine and surgery services
+Injection of substance into spinal canal of lower back or sacrum using imaging guidance,Njx interlaminar lmbr/sac,100.70,62323,Medicine and surgery services
+Injections of anesthetic and/or steroid drug into lower or sacral spine nerve root using imaging guidance,Njx aa&/strd tfrm epi l/s,1112.82,64483,Medicine and surgery services
+Removal of recurring cataract in lens capsule using laser,After cataract laser surgery,312.84,66821,Medicine and surgery services
+Removal of cataract with insertion of lens,Xcapsl ctrc rmvl w/o ecp,544.70,66984,Medicine and surgery services
+"Electrocardiogram, routine, with interpretation and report",Electrocardiogram complete,14.54,93000,Medicine and surgery services
+Insertion of catheter into left heart for diagnosis,Left hrt cath w/ventrclgrphy,967.59,93452,Medicine and surgery services
+Sleep study,Polysom 6/> yrs 4/> param,621.87,95810,Medicine and surgery services
+"Physical therapy, therapeutic exercise",Therapeutic exercises,30.11,97110,Medicine and surgery services
