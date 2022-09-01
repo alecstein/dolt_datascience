@@ -9,7 +9,6 @@ con = sqlite3.connect("empirebc_data.db")
 cur = con.cursor()
 cur.execute("CREATE TABLE IF NOT EXISTS in_network_files(url PRIMARY KEY UNIQUE, size)")
 
-
 index_url = 'https://antm-pt-preprod-dataz-nogbd-nophi-us-east1.s3.amazonaws.com/anthem/2022-08-01_anthem_index.json.gz'
 
 resp = requests.get(index_url)
@@ -20,7 +19,10 @@ for file in json_data['reporting_structure'][0]['in_network_files']:
     urls.add(file['location'])
 
 async def fetch_url_sizes(table, urls):
-
+    """
+    simple async function for getting all the file sizes in a list of urls
+    and writing those to a SQLite table
+    """
     async with aiohttp.ClientSession() as session:
         
         fs = [session.head(url) for url in urls]

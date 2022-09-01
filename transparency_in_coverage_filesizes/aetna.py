@@ -28,7 +28,10 @@ for brand_code in tqdm(brand_codes):
 
 
 async def fetch_url_sizes(table, urls):
-
+    """
+    simple async function for getting all the file sizes in a list of urls
+    and writing those to a SQLite table
+    """
     async with aiohttp.ClientSession() as session:
         
         fs = [session.head(url) for url in urls]
