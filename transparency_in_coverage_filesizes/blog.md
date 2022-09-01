@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "A trillion prices"
 date: "2022-09-02"
@@ -7,18 +8,26 @@ tags: "bounty"
 ---
 
 ## American insurers just published a trillion hospital prices
+=======
+American insurers just published a trillion hospital prices
+>>>>>>> 064c533d81b1a93ba94fdfae71fccd0788ee679a
 
 The files needed to reproduce the numbers in this blog are here:
 https://github.com/alecstein/transparency-in-coverage-filesizes
 
 On July 1, 2022, insurance companies dumped hundreds of terabytes of data into the public domain. That is, files that contain every price negotiated with every healthcare provider for every procedure they offer. 
 
+<<<<<<< HEAD
 This adds up to around a trillion separate prices. As for how it's possible to slice and dice prices up on that scale, I don't have a clue. But you don't have to take my word for it: you can see it for yourself.
+=======
+This adds up to around a trillion separate prices. As for how it's possible to slice and dice prices up on that scale, I don't have a clue. But you can see for yourself.
+>>>>>>> 064c533d81b1a93ba94fdfae71fccd0788ee679a
 
 Humana released [nearly 500,000 compressed CSV files](https://developers.humana.com/Resource/PCTFilesList?fileType=innetwork) totaling 50TB compressed (~600TB uncompressed.) At around 70k prices per 9MB file, this translates into about 400 billion individual prices negotiated with different providers.
 
 This appears to be one of the largest file dumps, but other payers are similar in their largesse. On [United Healthcare's page](https://transparency-in-coverage.uhc.com/) they list over 55,000 individual files for download. Together these make up 9TB of compressed JSON, or around 250TB uncompressed. A back-of-the-envelope estimate suggests they've published around a 100 billion negotiated prices.
 
+<<<<<<< HEAD
 Aetna and Anthem have also published enormous amounts of data.
 
 Insurers [did not want to publish this data](https://www.healthcaredive.com/news/payers-employers-argue-price-transparency-push-wont-help-consumers/571393/) but they effectively lost: the data is out there. Some have made it harder to get than others. Cigna, for example, makes you copy and paste a large link, which takes you to a page with files that apparently cannot be downloaded ([try it yourself](https://www.cigna.com/legal/compliance/machine-readable-files)). Anthem's site [hosts simply a broken link](https://www.anthem.com/machine-readable-file/search/).
@@ -51,6 +60,16 @@ Humana: 50TB
 Anthem: ??? Broken
 Cigna: ???
 ```
+=======
+Insurers [lobbied against the change](https://www.healthcaredive.com/news/payers-employers-argue-price-transparency-push-wont-help-consumers/571393/) and lost: the data is out there. But the value in the data is being able to query it. And right now, with mountains of terabytes of JSON and CSV files out there, that seems almost impossible to imagine for all but the most dedicated teams.
+
+Insurers (all compressed)
+United: 9TB
+Humana: 50TB
+Aetna: .3TB
+Anthem: Working on it
+Cigna: ???
+>>>>>>> 064c533d81b1a93ba94fdfae71fccd0788ee679a
 
 ## How is this even possible
 

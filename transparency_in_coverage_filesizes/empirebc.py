@@ -16,6 +16,7 @@ resp = requests.get(index_url)
 json_data = json.loads(gzip.decompress(resp.content))
 
 urls = set()
+
 for file in json_data["reporting_structure"][0]["in_network_files"]:
     urls.add(file["location"])
 
