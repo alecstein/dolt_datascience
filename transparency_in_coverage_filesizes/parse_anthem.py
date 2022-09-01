@@ -1,6 +1,8 @@
 import glob
 import json
 import sqlite3
+import asyncio
+import aiohttp
 from tqdm import tqdm
 
 con = sqlite3.connect("anthem_data.db")
@@ -15,11 +17,13 @@ print("Loading JSONL files...")
 for file in tqdm(files):
 	with open(file) as f:
 		for line in f:
-			data = json.loads(line)
+			try: 
+				data = json.loads(line)
+			except json.decoder.JSONDecodeError:
+				pass
 			in_network_files = data['in_network_files']
 			for in_network_file in in_network_files:
 				urls.add(in_network_file['location'])
-	# print("Gathered {len(urls)} URLs so far...")
 
 async def fetch_url_sizes(table, urls):
     """
