@@ -5,13 +5,17 @@ import sqlite3
 import aiohttp
 import asyncio
 import os
-from glob import glob
 import argparse
+from glob import glob
 
 """
 Usage:
-> python3 tableize_provider_info.py --filename tmp/2022-08-01_anthem_index.json --cleanup 1
+> python3 tableize_provider_info.py --filename tmp/2022-08-01_anthem_index.json --cleanup 1 --limit 10
 setting cleanup to 1 or 0 will delete or keep the downloaded in-network files
+
+TODOs: 
+1. make async download of in-network files so that you can begin processing before you download all of them
+2. make price data table
 """
 
 parser = argparse.ArgumentParser(description='Get provider groups from index file.')
