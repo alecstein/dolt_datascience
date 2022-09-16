@@ -77,6 +77,7 @@ async def process_gcsv_resp(resp):
     filename = os.path.join(tmp_dir, parse_filename(resp))
     return (filename)
 
+
 async def process_resp(resp):
     """Do something with the in-network file response.
     """
@@ -130,7 +131,8 @@ def get_in_network_file_urls_from_index(index_file, limit = None):
 async def main():
     urls = get_in_network_file_urls_from_index(args.file, limit = int(args.limit))
     await fetch_and_process_in_network_urls(urls)
-
+    os.rmdir(tmp_dir)
 
 asyncio.run(main())
-os.rmdir(tmp_dir)
+
+
