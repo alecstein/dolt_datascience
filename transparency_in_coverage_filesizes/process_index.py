@@ -65,6 +65,10 @@ async def process_gjson_resp(resp):
     async with aiofile.async_open(filename, "wb") as f:
         await f.write(ext)
 
+    # "Processing" goes here. It's up to you what you do with
+    # the saved file. Note that it's more reliable to save
+    # files before processing than to stream them.
+    
     os.remove(filename)
     return (filename)
 
@@ -97,7 +101,6 @@ async def process_resp(resp):
     elif filename.endswith("csv.gz"):
         # Compressed CSV
         params = await process_gcsv_resp(resp)
-
 
     print(f"Processed file: {params}")
 
